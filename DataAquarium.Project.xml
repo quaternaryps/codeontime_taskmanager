@@ -1,0 +1,43 @@
+<!-- 
+  This file is provided to store the settings for your Data Aquarium project. 
+  You can safely delete this file if no further code generation is planned.
+-->
+<project compatibility="20111118" dataModel="required" subscriptionLevel="Unlimited" name="AzureTaskManager" prettyName="Azure Task Manager" type="Web Site Factory" codeDomProvider="CSharp" targetFramework="4.6" userInterface="TouchUI" pageImplementation="html" sourceControl="git" xmlns="urn:schemas-codeontime-com:data-aquarium-project">
+  <connectionString hostDatabaseSharing="false" sessionStateMode="None">Data Source=DESKTOP-9U2CUNP\MSSQLDEV;Initial Catalog=AppDeveloper;Integrated Security=True;</connectionString>
+  <providerName>System.Data.SqlClient</providerName>
+  <namespace>MyCompany</namespace>
+  <webServer run="true" port="27681">
+    <webConfig></webConfig>
+  </webServer>
+  <features useSaveAndNew="true" pageHeader="Azure Task Manager" copyright="Quaternary Professional Services" annotations="false" annotationsPath="" newColumn="true" floating="false" maxGridFields="100" multiSelect="false" batchEdit="false" advancedSearch="false" advancedLookup="false" relationshipExplorer="false" enablePermalinks="false" enableHistory="false" enableTransactions="false" showModalForms="true" tabViewSelection="0">
+    <navigation detectUnderscoreSeparatedSchema="" />
+    <blob allowUploadOnInsert="true" />
+    <framework scriptOnly="true" useExtenders="false" />
+    <grid actionColumn="false" />
+    <touch desktopDisplayDensity="Condensed" mobileDisplayDensity="Auto" transitions="" sidebar="Landscape" labelsInList="DisplayedBelow" initialListMode="SeeAll" menu="toolbar" promoteActions="true" smartDates="true" mapApiIdentifier="" />
+    <cms searchEngine="" analysisEngine="" analysisOnDataPages="false" />
+    <ease urlHashing="false">
+      <auditing></auditing>
+    </ease>
+    <packageProperties></packageProperties>
+    <smtp deliveryMethod="Network" deliveryFormat="" from="" clientDomain="" targetName="" host="" port="" defaultCredentials="true" enableSsl="false" username="" password="" />
+  </features>
+  <reports enabled="true" />
+  <host path="" url="" />
+  <databaseObjectFilter generate="ControllersAndPages"></databaseObjectFilter>
+  <native windows="false" android="false" ios="false" osx="false" />
+  <bll normalizeModelNames="true" discoveryDepth="3" labelFormatExpression="" selectMethod="Select" selectSingleMethod="SelectSingle" insertMethod="Insert" updateMethod="Update" deleteMethod="Delete" generateSharedBusinessRules="false" includeViews="true" tabViewSelection="0">
+    <fieldMap></fieldMap>
+    <keys></keys>
+    <fieldsToIgnore></fieldsToIgnore>
+    <fieldsToHide></fieldsToHide>
+    <customLabels></customLabels>
+  </bll>
+  <membership enabled="false" providerName="System.Data.SqlClient" connectionString="" windowsAuthentication="false" activeDirectory="false" customSecurity="false" dedicatedLogin="false" displayRememberMe="true" rememberMeSet="false" displaySignUp="true" displayPasswordRecovery="true" displayMyAccount="true" displayHelp="true" idleUserDetectionTimeout="-1" tabViewSelection="0" validationKey="7984EE83F9988594B2D4FCA125FAB7616D678DB995CC65C70072D94DC6709355BD0F08FBD2A690755B5E31FA77DDBE1EC570D84E68EDE108A7480FC1B87B90BD">
+    <adConfig></adConfig>
+    <config></config>
+  </membership>
+  <globalization uiCulture="en-US" culture="en-US" enableClientBasedCulture="false" supportedCultures="en-US,en-US; " googleTranslateApiKey="" />
+  <layout name="Classic" menuStyle="MultiLevel" />
+  <theme name="Aquarium" />
+</project>

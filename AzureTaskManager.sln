@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "WebSite\", "{AE7FD722-83A7-46D6-BBF8-5EDBDF3ACDBB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52229"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52229\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52229"
+		Release.AspNetCompiler.PhysicalPath = "WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52229\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52229"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code On Time Items", "Code On Time Items", "{CCE1B98B-4186-41D6-86C4-A08733FBD5CC}"
+	ProjectSection(SolutionItems) = preProject
+		ClientLibrary.en-US.txt = ClientLibrary.en-US.txt
+		DataAquarium.Project.xml = DataAquarium.Project.xml
+		DataAquarium.Version.xml = DataAquarium.Version.xml
+		Sync.DESKTOP-9U2CUNP-rabarr.xml = Sync.DESKTOP-9U2CUNP-rabarr.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7FD722-83A7-46D6-BBF8-5EDBDF3ACDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7FD722-83A7-46D6-BBF8-5EDBDF3ACDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
